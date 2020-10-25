@@ -3,7 +3,7 @@ from datetime import datetime
 #to change current directory
 os.chdir("/home/mmohdbilal/bilal/")
 #creates directory
-os.makedirs("oss/demo")
+#os.makedirs("oss/demo")
 #renames the directory
 os.rename("test.py", "test2")
 os.rename("test2", "test.py")
